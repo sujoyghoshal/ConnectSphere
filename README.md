@@ -15,6 +15,9 @@
 - **Manage Applications**: View, filter, and manage student applications.
 - **Search Student Profiles**: Search and view student profiles based on skills and other criteria.
 
+### User Dashboard
+![User Dashboard](./images/dashboard.png)
+
 ### Student Panel
 - **Registration and Login**: Sign up and log in to access the platform.
 - **Profile Management**: Create and update student profiles, including skills and education.
@@ -31,12 +34,11 @@
 - **Deployment**: AWS, Vercel
 
 ## Installation
-
 ### Backend
 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/sujoyghoshal/ConnectSphere.git
 
-### User Dashboard
-![User Dashboard](./images/dashboard.png)
+### Jobs
+![User Dashboard](./images/job.png)
