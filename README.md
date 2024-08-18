@@ -38,3 +38,5 @@
    ```bash
    git clone https://github.com/sujoyghoshal/ConnectSphere.git
 
+### User Dashboard
+![User Dashboard](./images/dashboard.png)
