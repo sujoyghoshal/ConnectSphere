@@ -5,8 +5,6 @@ import Job from './Job';
 import { useSelector } from 'react-redux';
 import { motion } from 'framer-motion';
 
-// const jobsArray = [1, 2, 3, 4, 5, 6, 7, 8];
-
 const Jobs = () => {
     const { allJobs, searchedQuery } = useSelector(store => store.job);
     const [filterJobs, setFilterJobs] = useState(allJobs);
@@ -14,13 +12,29 @@ const Jobs = () => {
     useEffect(() => {
         if (searchedQuery) {
             const filteredJobs = allJobs.filter((job) => {
-                return job.title.toLowerCase().includes(searchedQuery.toLowerCase()) ||
-                    job.description.toLowerCase().includes(searchedQuery.toLowerCase()) ||
-                    job.location.toLowerCase().includes(searchedQuery.toLowerCase())
-            })
-            setFilterJobs(filteredJobs)
+                const salary = job.salary || '';
+                const searchQuery = searchedQuery.toLowerCase();
+
+                let salaryMatch = false;
+
+                if (searchQuery.includes('0-40k')) {
+                    salaryMatch = salary <= 40000;
+                } else if (searchQuery.includes('42k-5lakh')) {
+                    salaryMatch = salary > 42000 && salary <= 500000;
+                } else if (searchQuery.includes('5lakh to 50lakh')) {
+                    salaryMatch = salary > 500000 && salary <= 5000000;
+                }
+
+                return (
+                    job.title.toLowerCase().includes(searchQuery) ||
+                    job.description.toLowerCase().includes(searchQuery) ||
+                    job.location.toLowerCase().includes(searchQuery) ||
+                    salaryMatch
+                );
+            });
+            setFilterJobs(filteredJobs);
         } else {
-            setFilterJobs(allJobs)
+            setFilterJobs(allJobs);
         }
     }, [allJobs, searchedQuery]);
 
@@ -54,10 +68,8 @@ const Jobs = () => {
                     }
                 </div>
             </div>
-
-
         </div>
     )
 }
 
-export default Jobs
+export default Jobs;
