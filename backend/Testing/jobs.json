@@ -1,0 +1,72 @@
+[
+    {
+        "_id": "66e2bdec27aa3d89d263b4be",
+        "title": "FullStack Developer",
+        "description": "Developed and maintained scalable web applications using Microsoft stack.",
+        "requirements": [],
+        "salary": 5000000,
+        "experienceLevel": 3,
+        "location": "Bangalore",
+        "jobType": "Remote",
+        "position": 30,
+        "company": "66e2baef27aa3d89d263b48e",
+        "created_by": "66e1dbc3516e5b84bce9d345",
+        "applications": [],
+        "createdAt": "2024-09-12T10:09:48.745+00:00",
+        "updatedAt": "2024-09-12T10:09:48.745+00:00",
+        "__v": 0
+    },
+    {
+        "_id": "66e2be4327aa3d89d263b4c4",
+        "title": "Backend Developer",
+        "description": "Developed and maintained scalable web applications using Microsoft stack.",
+        "requirements": [],
+        "salary": 800000,
+        "experienceLevel": 0,
+        "location": "Delhi NCR",
+        "jobType": "Remote",
+        "position": 122,
+        "company": "66e2bcea27aa3d89d263b4ab",
+        "created_by": "66e1dbc3516e5b84bce9d345",
+        "applications": [],
+        "createdAt": "2024-09-12T10:11:15.170+00:00",
+        "updatedAt": "2024-09-12T10:11:15.170+00:00",
+        "__v": 0
+    },
+    {
+        "_id": "66e2be9d27aa3d89d263b4ca",
+        "title": "Backend Developer",
+        "description": "Developed and maintained scalable web applications using Microsoft stack.",
+        "requirements": [],
+        "salary": 120000,
+        "experienceLevel": 0,
+        "location": "Bangalore",
+        "jobType": "Remote",
+        "position": 12,
+        "company": "66e2bd2527aa3d89d263b4b3",
+        "created_by": "66e1dbc3516e5b84bce9d345",
+        "applications": [
+            {}
+        ],
+        "createdAt": "2024-09-12T10:12:45.999+00:00",
+        "updatedAt": "2024-09-12T10:15:27.746+00:00",
+        "__v": 1
+    },
+    {
+        "_id": "66e2c0ac27aa3d89d263b532",
+        "title": "Frontend Developer",
+        "description": "Developed and maintained scalable web applications using Microsoft stack.",
+        "requirements": [],
+        "salary": 1900000,
+        "experienceLevel": 3,
+        "location": "Pune",
+        "jobType": "Remote",
+        "position": 30,
+        "company": "66e1dbd8516e5b84bce9d34d",
+        "created_by": "66e1dbc3516e5b84bce9d345",
+        "applications": [],
+        "createdAt": "2024-09-12T10:21:32.624+00:00",
+        "updatedAt": "2024-09-12T10:21:32.624+00:00",
+        "__v": 0
+    }
+]

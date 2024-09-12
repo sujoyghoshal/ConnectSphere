@@ -1,0 +1,62 @@
+[
+    {
+        "_id": "66e1dbd8516e5b84bce9d34d",
+        "name": "Google",
+        "userId": "66e1dbc3516e5b84bce9d345",
+        "createdAt": "2024-09-11T18:05:12.975+00:00",
+        "updatedAt": "2024-09-12T10:17:10.738+00:00",
+        "__v": 0,
+        "description": "Developed and maintained scalable web applications using Microsoft stack.",
+        "location": "Hyderabad",
+        "logo": "https://res.cloudinary.com/djohsamls/image/upload/v1726136230/vc7vlwkz…",
+        "website": "https://www.google.com/en-in/"
+    },
+    {
+        "_id": "66e2baef27aa3d89d263b48e",
+        "name": "Microsoft",
+        "userId": "66e1dbc3516e5b84bce9d345",
+        "createdAt": "2024-09-12T09:57:03.361+00:00",
+        "updatedAt": "2024-09-12T09:59:08.686+00:00",
+        "__v": 0,
+        "description": "Developed and maintained scalable web applications using Microsoft stack.",
+        "location": "Bangalore",
+        "logo": "https://res.cloudinary.com/djohsamls/image/upload/v1726135147/vws9gwrj…",
+        "website": "https://www.google.com/en-in/"
+    },
+    {
+        "_id": "66e2bc8927aa3d89d263b49d",
+        "name": "Tata Consultancy Services",
+        "userId": "66e1dbc3516e5b84bce9d345",
+        "createdAt": "2024-09-12T10:03:53.604+00:00",
+        "updatedAt": "2024-09-12T10:05:03.524+00:00",
+        "__v": 0,
+        "description": "Leading global IT services, consulting, and business solutions organization.",
+        "location": "Mumbai",
+        "logo": "https://res.cloudinary.com/djohsamls/image/upload/v1726135502/corzfshw…",
+        "website": "https://www.tcs.com/"
+    },
+    {
+        "_id": "66e2bcea27aa3d89d263b4ab",
+        "name": "Accenture",
+        "userId": "66e1dbc3516e5b84bce9d345",
+        "createdAt": "2024-09-12T10:05:30.694+00:00",
+        "updatedAt": "2024-09-12T10:06:12.797+00:00",
+        "__v": 0,
+        "description": "Global professional services company providing strategy, consulting, digital transformation, technology, and operations services.",
+        "location": "Delhi NCR",
+        "logo": "https://res.cloudinary.com/djohsamls/image/upload/v1726135572/scg9iy3i…",
+        "website": "https://www.accenture.com/"
+    },
+    {
+        "_id": "66e2bd2527aa3d89d263b4b3",
+        "name": "Infosys",
+        "userId": "66e1dbc3516e5b84bce9d345",
+        "createdAt": "2024-09-12T10:06:29.943+00:00",
+        "updatedAt": "2024-09-12T10:07:02.106+00:00",
+        "__v": 0,
+        "description": "Global leader in next-generation digital services and consulting.",
+        "location": "Bangalore",
+        "logo": "https://res.cloudinary.com/djohsamls/image/upload/v1726135621/fwjvv8vz…",
+        "website": "https://www.infosys.com/"
+    }
+]
