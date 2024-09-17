@@ -2,7 +2,18 @@
 
 **ConnectSphere** is a dynamic job portal application designed to bridge the gap between students, recruiters, and companies. The platform facilitates job applications, profile management, and job postings, offering a streamlined experience for all users. Built with Node.js, MongoDB, and React, the application incorporates modern web technologies including Redux, Context API, and Multer for file handling.
 
+## Deployment
+
+- **Backend**: [ConnectSphere Backend](https://connectsphere-server.onrender.com/)
+- **Client**: [ConnectSphere Client](https://connect-sphere-client.vercel.app/)
+
 ## Features
+
+- **For Students**:
+  - Create and manage profiles
+  - Upload resumes
+  - Browse and apply for job opportunities
+
 
 ### Admin Panel
 - **Manage Recruiters**: Add, edit, and delete recruiter profiles.
